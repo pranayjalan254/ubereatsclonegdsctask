@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+
+    <button data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1" class="btn btn-primary" aria-controls="#sidenav-1"
+        aria-haspopup="true">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+                <span class="ml-3 text-2xl font-bold">Uber Eats</span>
+            </a>
+
+            <button
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 btn">Log
+                in
+
+            </button>
+            <button
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 btn1">Sign
+                up
+
+            </button>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            </div>
+
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776; </button>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="delivernow">
+        <div>
+            <h1 class="font-bold m-10 py-24 text-5xl btn5 ">Order food to your door</h1>
+
+        </div>
+        <div>
+            <a href="#" class="buttonClass  btn5">Deliver Now</a>
+        </div>
+    </div>
+
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+        <div>
+            <div>
+                <img alt="content" class="img1"
+                    src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/dd109bb1f7572eed.png">
+            </div>
+            <h2 class="ml-11">Feed your employees</h2>
+            <p class="ml-11">Create a business account</p>
+
+        </div>
+        <div>
+            <div>
+                <img alt="content" class="img2"
+                    src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8148ef38ec4096b7.png">
+            </div>
+            <h2>Your restaurant, delivered</h2>
+            <p>Add your restaurant</p>
+
+
+        </div>
+        <div>
+            <div>
+                <img alt="content" class="img3"
+                    src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/7a9d4feba62d2c0b.png">
+            </div>
+            <h2>Deliver with Uber Eats</h2>
+            <p>Sign up to deliver</p>
+
+
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <section>
+        <h1 class="font-bold text-4xl p-10 my-10">Cities near me</h1>
+        <img class="map m-10" src="images/map.png" alt="map">
+    </section>
+
+    <section class="m-10 text-gray-600 body-font">
+        <div class="flex flex-wrap -m-4">
+
+            <div class="p-4  lg:w-1/4 sm:w-1/2 w-full">
+
+                <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                    <a>
+                        <p>Akron</p>
+                    </a>
+                    <a>
+                        <p>Albuquerque</p>
+                    </a>
+                    <a>
+                        <p>Bridgeport</p>
+                    </a>
+                    <a>
+                        <p>Concord</p>
+                    </a>
+                    <a>
+                        <p>Dayton</p>
+                    </a>
+                    <a>
+                        <p>El Paso</p>
+                    </a>
+                </nav>
+            </div>
+            <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+
+                <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                    <a>
+                        <p>Hartford</p>
+                    </a>
+                    <a>
+                        <p>Houston</p>
+                    </a>
+                    <a>
+                        <p>Indianapolis</p>
+                    </a>
+                    <a>
+                        <p>McAllen</p>
+                    </a>
+                    <a>
+                        <p>Mesa</p>
+                    </a>
+                    <a>
+                        <p>Milwaukee</p>
+                    </a>
+                </nav>
+            </div>
+            <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+
+                <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                    <a>
+                        <p>Nashville</p>
+                    </a>
+                    <a>
+                        <p>New Orleans</p>
+                    </a>
+                    <a>
+                        <p>Oklahoma City</p>
+                    </a>
+                    <a>
+                        <p>Omaha</p>
+                    </a>
+                    <a>
+                        <p>Orlando</p>
+                    </a>
+                    <a>
+                        <p>Palm Bay</p>
+                    </a>
+                </nav>
+            </div>
+            <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+
+                <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                    <a>
+                        <p>Providence</p>
+                    </a>
+                    <a>
+                        <p>Queens</p>
+                    </a>
+                    <a>
+                        <p>San Antonio</p>
+                    </a>
+                    <a>
+                        <p>Stony Brook</p>
+                    </a>
+                    <a>
+                        <p>Tucson</p>
+                    </a>
+                    <a>
+                        <p>West Hollywood</p>
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="text-center mb-20">
+
+
+            </div>
+            <h1 class="font-bold text-3xl ">Countries with Uber Eats</h1>
+            <div class="container px-5 py-2 mx-auto">
+                <div class="text-center mb-20">
+
+
+                </div>
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+
+                        <nav
+                            class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                            <a>
+                                <p>Australia</p>
+                            </a>
+                            <a>
+                                <p>Belgium</p>
+                            </a>
+                            <a>
+                                <p>Canada</p>
+                            </a>
+                            <a>
+                                <p>Chile</p>
+                            </a>
+                            <a>
+                                <p>Costa Rica</p>
+                            </a>
+                            <a>
+                                <p>Dominican Republic</p>
+                            </a>
+                            <a>
+                                <p>Ecuador</p>
+                            </a>
+                            <a>
+                                <p>El Salvador</p>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+
+                        <nav
+                            class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                            <a>
+                                <p>France</p>
+                            </a>
+                            <a>
+                                <p>Germany</p>
+                            </a>
+                            <a>
+                                <p>Gautemala</p>
+                            </a>
+                            <a>
+                                <p>Ireland</p>
+                            </a>
+                            <a>
+                                <p>Italy</p>
+                            </a>
+                            <a>
+                                <p>Japan</p>
+                            </a>
+                            <a>
+                                <p>Kenya</p>
+                            </a>
+                            <a>
+                                <p>Mexico</p>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+
+                        <nav
+                            class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                            <a>
+                                <p>Netherlands</p>
+                            </a>
+                            <a>
+                                <p>New Zealand</p>
+                            </a>
+                            <a>
+                                <p>Panama</p>
+                            </a>
+                            <a>
+                                <p>Poland</p>
+                            </a>
+                            <a>
+                                <p>Portugal</p>
+                            </a>
+                            <a>
+                                <p>South Africa</p>
+                            </a>
+                            <a>
+                                <p>Spain</p>
+                            </a>
+                            <a>
+                                <p>Sri Lanka</p>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+
+                        <nav
+                            class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                            <a>
+                                <p>Sweden</p>
+                            </a>
+                            <a>
+                                <p>Switzerland</p>
+                            </a>
+                            <a>
+                                <p>Taiwan(ROC)</p>
+                            </a>
+                            <a>
+                                <p>United Kingdom</p>
+                            </a>
+                            <a>
+                                <p>United States</p>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+
+
+    <footer class="text-gray-600 body-font">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <span class=" font-bold text-3xl">Uber Eats</span>
+                </a>
+
+            </div>
+
+            <div class="downloadbtn">
+                <a class="playstore-btn" href="https://play.google.com/store/apps/details?id=com.example.appname"
+                    target="_blank">
+                    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                        alt="Get it on Google Play">
+                </a>
+                <a href="#" class="apple-store-download">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/640px-Download_on_the_App_Store_Badge.svg.png"
+                        alt="Download on the Apple Store">
+
+                </a>
+
+            </div>
+
+
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+
+                <nav class="list-none mb-10">
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Get Help</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Buy Gift Cards</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Add your restaurant</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Sign up to deliver</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Create a business account</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Promotions</a>
+                    </li>
+                </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <nav class="list-none mb-10">
+                    <li>
+                        <a class="p-1000 text-gray-600 hover:text-gray-800">Restaurants near me</a>
+                    </li>
+                    <li>
+                        <a class="p-1000 text-gray-600 hover:text-gray-800">View all cities</a>
+                    </li>
+                    <li>
+                        <a class="p-1000 text-gray-600 hover:text-gray-800">View all countries</a>
+                    </li>
+                    <li>
+                        <a class="p-1000 text-gray-600 hover:text-gray-800">Pickup near me</a>
+                    </li>
+                    <li>
+                        <a class="p-1000 text-gray-600 hover:text-gray-800">About Uber Eats</a>
+                    </li>
+                    <li>
+                        <a class="p-1000 text-gray-600 hover:text-gray-800">English</a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+    <div class="footer1">
+        <p>Privacy Policies</p>
+        <p>Terms</p>
+        <p>Pricing</p>
+        <p>Do not sell or share my personal information</p>
+        <p> This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+        <p>© 2023 Uber Technologies Inc.</p>
+    </div>
+</body>
+
+</html>
